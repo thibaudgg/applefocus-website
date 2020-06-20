@@ -1,0 +1,960 @@
+<style type="text/css">
+  #outlook a{
+  	padding:0;
+  }
+  .ReadMsgBody{
+  	width:100%;
+  }
+  .ExternalClass{
+  	width:100%;
+  }
+  .ExternalClass *{
+  	line-height:100%;
+  }
+  body{
+  	margin:0;
+  	padding:0;
+  	-webkit-text-size-adjust:100%;
+  	-ms-text-size-adjust:100%;
+  }
+  table,td{
+  	border-collapse:collapse;
+  	mso-table-lspace:0pt;
+  	mso-table-rspace:0pt;
+  }
+  img{
+  	border:0;
+  	height:auto;
+  	line-height:100%;
+  	outline:none;
+  	text-decoration:none;
+  	-ms-interpolation-mode:bicubic;
+  }
+  p{
+  	display:block;
+  	margin:13px 0;
+  }
+  .h2-headlines{
+  	color:#61bb46;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .h2-news{
+  	color:#fdb827;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .h2-reviews{
+  	color:#f5821f;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .h2-rumors{
+  	color:#e03a3e;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .h2-others{
+  	color:#963d97;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .h2-finally{
+  	color:#009ddc;
+  	font-size:24px;
+  	line-height:24px;
+  	font-weight:300;
+  	margin:0;
+  	padding:0;
+  }
+  .info-headlines{
+  	color:#61bb46;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .info-news{
+  	color:#fdb827;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .info-reviews{
+  	color:#f5821f;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .info-rumors{
+  	color:#e03a3e;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .info-others{
+  	color:#963d97;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .info-finally{
+  	color:#009ddc;
+  	text-decoration:none;
+  	font-size:14px;
+  	line-height:14px;
+  	font-weight:400;
+  	font-style:italic;
+  	margin:0;
+  	padding:0;
+  }
+  .blockquote-headlines{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#61bb46;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .blockquote-news{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#fdb827;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .blockquote-reviews{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#f5821f;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .blockquote-rumors{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#e03a3e;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .blockquote-others{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#963d97;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .blockquote-finally{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:0 0 0 0;
+  	padding:0;
+  	border-left-color:#009ddc;
+  	border-left-style:solid;
+  	border-width:1px;
+  	padding-left:7px;
+  }
+  .p{
+  	color:#666666;
+  	font-size:16px;
+  	line-height:20px;
+  	font-weight:400;
+  	margin:6px 0 0 0;
+  	padding:0;
+  }
+  .title{
+  	font-size:18px;
+  	line-height:22px;
+  	font-weight:500;
+  	color:#333333;
+  }
+  .ol{
+  	list-style-type:decimal;
+  	list-style-position:outside;
+  	margin:0;
+  	padding-left:20px;
+  }
+  .ul{
+  	list-style-position:outside;
+  	margin:0;
+  	padding-left:20px;
+  }
+  .li{
+  	margin:3px 0 3px 0;
+  }
+  .a{
+  	color:#009ddc;
+  	text-decoration:none;
+  }
+  	@media only screen and (min-width:480px){
+  .mj-column-per-100{
+  	width:100%!important;
+  }
+  
+  }	@media only screen and (min-width:480px){
+  .mj-column-per-50{
+  	width:50%!important;
+  }
+  
+  }	@media only screen and (min-width:480px){
+  .mj-column-per-16{
+  	width:16.666666666666668%!important;
+  }
+  
+  }
+</style>
+<div class="mj-container" style="background-color:white;">
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-headlines" style="color: #61bb46;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          Headlines
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.theverge.com/2018/11/12/18077166/apple-macbook-air-mac-mini-t2-chip-security-repair-replacement-tool?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Apple Confirms Its T2 Security Chip Blocks Some Third-party Repairs of New Macs
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-headlines" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #61bb46;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">Last month, Apple introduced the new MacBook Air and a revamped Mac mini. Both computers, like the newest MacBook Pro and last year’s iMac Pro, come equipped with Apple’s security-focused T2 chip, which has renewed concerns that Apple is trying to further lock down its devices from third-party repair services. The company confirmed that the chip checks for proprietary diagnostic software during the replacement of the logic board and Touch ID sensor.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-headlines" href="https://www.theverge.com/2018/11/12/18077166/apple-macbook-air-mac-mini-t2-chip-security-repair-replacement-tool?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #61bb46;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          theverge.com by Nick Statt
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-news" style="color: #fdb827;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          News
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://variety.com/2018/film/news/apple-a24-films-1203029800/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Apple Taps A24 to Produce Slate of Films
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-news" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #fdb827;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">Tech giant enlists Oscar-winning indie studio behind “Moonlight.”</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-news" href="https://variety.com/2018/film/news/apple-a24-films-1203029800/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #fdb827;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          variety.com by Brent Lang
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.cnbc.com/2018/11/14/unitedhealthcare-gives-free-apple-watches-if-walking-goals-met.html?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          A Giant Insurer Is Offering Free Apple Watches to Customers Who Meet Walking Goals
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-news" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #fdb827;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">UnitedHealthcare members enrolled in the Motion program can get an Apple Watch for the cost of taxes and shipping alone, if they reach certain fitness milestones.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-news" href="https://www.cnbc.com/2018/11/14/unitedhealthcare-gives-free-apple-watches-if-walking-goals-met.html?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #fdb827;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          cnbc.com by Christina Farr
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://daringfireball.net/2018/11/third_party_usb-c_to_lightning_cables?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Third-Party USB-C to Lightning Cables Might Come in Mid-2019 (Which Is Good, Because I Still Don’t Think iPhone Is Ever Going to Switch to USB-C)
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-news" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #fdb827;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">It’s small consolation to those of us looking for high-quality third-party USB-C to Lightning cables today, but it does sound like they’ll start appearing in the second quarter of 2019.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-news" href="https://daringfireball.net/2018/11/third_party_usb-c_to_lightning_cables?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #fdb827;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          daringfireball.net by John Gruber
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-reviews" style="color: #f5821f;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          Reviews
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://sixcolors.com/post/2018/11/ipad-pro-2018-review/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          iPad Pro 2018 Review: A Computer, Not a PC
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-reviews" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #f5821f;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">The iPad Pro is fantastic hardware that will delight everyone who uses it. If you already use the iPad Pro to get work done, you’ll find it a great upgrade. If you’ve considered moving to the iPad Pro, it’s worth investigating if you can do your job from it—it’s more flexible than you might think.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-reviews" href="https://sixcolors.com/post/2018/11/ipad-pro-2018-review/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #f5821f;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          sixcolors.com by Jason Snell
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://9to5mac.com/2018/11/10/review-2018-mac-mini-video/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          2018 Mac Mini – Apple’s Most Versatile Mac [Video]
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-reviews" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #f5821f;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">The Mac mini is back, regaining its rightful place as the most versatile Mac in Apple’s entire computer lineup.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 8px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center">
+                      <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse: collapse;border-spacing: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+                        <tbody>
+                          <tr>
+                            <td style="width: 600px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><a href="https://9to5mac.com/2018/11/10/review-2018-mac-mini-video/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank"><img alt="" title="2018 Mac Mini – Apple’s Most Versatile Mac [Video]" height="auto" src="/images/issues/2018/46/90064f09-b815-4e48-bf28-ce94444389ef.jpeg" style="border: none;border-radius: 0px;display: block;font-size: 13px;outline: none;text-decoration: none;width: 100%;height: auto;line-height: 100%;-ms-interpolation-mode: bicubic;" width="600"></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-reviews" href="https://9to5mac.com/2018/11/10/review-2018-mac-mini-video/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #f5821f;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          9to5mac.com by Jeff Benjamin
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.macstories.net/stories/ipad-diaries-typing-on-the-ipad-pro-with-the-smart-keyboard-folio/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          iPad Diaries: Typing on the iPad Pro With the Smart Keyboard Folio
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-reviews" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #f5821f;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">Personally, I’d like Apple to provide its pro iPad customers with more options. I would happily trade some of the Smart Keyboard’s portability for a larger, heavier keyboard with adjustable angles and extra functions that are natively integrated with iOS and apps.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-reviews" href="https://www.macstories.net/stories/ipad-diaries-typing-on-the-ipad-pro-with-the-smart-keyboard-folio/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #f5821f;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          macstories.net by Federico Viticci
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.penny-arcade.com/news/post/2018/11/14/drawing-on-the-new-ipad?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Drawing on the New iPad
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-reviews" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #f5821f;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">Overall, I could not be happier with the upgrade. I cannot recommend it enough to other artists. It really is the only machine I need for work anymore.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-reviews" href="https://www.penny-arcade.com/news/post/2018/11/14/drawing-on-the-new-ipad?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #f5821f;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          penny-arcade.com by Gabe
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-rumors" style="color: #e03a3e;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          Rumors
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://9to5mac.com/2018/11/10/2019-iphones-antenna-tech/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          2019 iPhones to Use New Combination of Antenna Technology, Kuo Says
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-rumors" href="https://9to5mac.com/2018/11/10/2019-iphones-antenna-tech/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #e03a3e;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          9to5mac.com by Chance Miller
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-others" style="color: #963d97;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          Others
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.ifixit.com/Teardown/iPad+Pro+11-Inch+Teardown/115457?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          iPad Pro 11" Teardown
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 8px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center">
+                      <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse: collapse;border-spacing: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+                        <tbody>
+                          <tr>
+                            <td style="width: 600px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><a href="https://www.ifixit.com/Teardown/iPad+Pro+11-Inch+Teardown/115457?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank"><img alt="" title='iPad Pro 11" Teardown' height="auto" src="/images/issues/2018/46/8d283c6f-bffa-4665-ae5b-2cb8cf837bcb.png" style="border: none;border-radius: 0px;display: block;font-size: 13px;outline: none;text-decoration: none;width: 100%;height: auto;line-height: 100%;-ms-interpolation-mode: bicubic;" width="600"></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-others" href="https://www.ifixit.com/Teardown/iPad+Pro+11-Inch+Teardown/115457?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #963d97;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          ifixit.com
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://lunadisplay.com/pages/luna-and-mac-mini?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Here’s How Apple Should Have Combined the iPad and Mac Mini
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-others" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #963d97;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">We Turned Our iPad into a Wireless Display for Mac Mini All-powerful. Brilliant. Magical.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-others" href="https://lunadisplay.com/pages/luna-and-mac-mini?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #963d97;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          lunadisplay.com
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.macrumors.com/2018/11/16/airport-extreme-time-capsule-removed-from-apple-online-store/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Discontinued AirPort Extreme and 2TB Time Capsule Finally Disappear From Apple Online Store
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-others" href="https://www.macrumors.com/2018/11/16/airport-extreme-time-capsule-removed-from-apple-online-store/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #963d97;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          macrumors.com by Juli Clover
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.macstories.net/news/panics-transmit-returns-to-the-mac-app-store/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Panic’s Transmit Returns to the Mac App Store
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-others" href="https://www.macstories.net/news/panics-transmit-returns-to-the-mac-app-store/?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #963d97;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          macstories.net by John Voorhees
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 40px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <h2 class="h2-finally" style="color: #009ddc;font-size: 24px;line-height: 24px;font-weight: 300;margin: 0;padding: 0;">
+                          Finally
+                        </h2>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="margin:0px auto;max-width:600px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size: 0px;width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+      <tbody>
+        <tr>
+          <td style="text-align: center;vertical-align: top;direction: ltr;font-size: 0px;padding: 16px 15px 8px 15px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tbody>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="title" style="color: #333333;text-decoration: none;font-size: 18px;line-height: 22px;font-weight: 500;" href="https://www.macworld.com/article/3321516/macs/why-the-macbook-air-might-spell-the-end-of-configurable-macs.html?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank">
+                          Why the MacBook Air Might Spell the End of Configurable Macs
+                        </a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 0px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;">
+                        <blockquote class="blockquote-finally" style="color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;margin: 0 0 0 0;padding: 0;border-left-color: #009ddc;border-left-style: solid;border-width: 1px;padding-left: 7px;">
+                          <p class="p" style="display: block;margin: 6px 0 0 0;color: #666666;font-size: 16px;line-height: 20px;font-weight: 400;padding: 0;">Apple’s approach to iPads and iPhones may dramatically change how we shop for Macs in the future.</p>
+                        </blockquote>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 8px 0px 2px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center">
+                      <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse: collapse;border-spacing: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="center" border="0">
+                        <tbody>
+                          <tr>
+                            <td style="width: 600px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><a href="https://www.macworld.com/article/3321516/macs/why-the-macbook-air-might-spell-the-end-of-configurable-macs.html?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank"><img alt="" title="Why the MacBook Air Might Spell the End of Configurable Macs" height="auto" src="/images/issues/2018/46/4dd09314-4d32-489a-afd6-2a4094334e78.jpeg" style="border: none;border-radius: 0px;display: block;font-size: 13px;outline: none;text-decoration: none;width: 100%;height: auto;line-height: 100%;-ms-interpolation-mode: bicubic;" width="600"></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="word-wrap: break-word;font-size: 0px;padding: 6px 0px 0px 0px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" align="left">
+                      <div style="cursor:auto;color:#000000;font-family:system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Lucida Grande';font-size:13px;line-height:1;text-align:left;"><a class="info-finally" href="https://www.macworld.com/article/3321516/macs/why-the-macbook-air-might-spell-the-end-of-configurable-macs.html?utm_campaign=Apple%20Focus%202018%2F46&amp;utm_medium=email&amp;utm_source=applefocus.com" target="_blank" style="color: #009ddc;text-decoration: none;font-size: 14px;line-height: 14px;font-weight: 400;font-style: italic;margin: 0;padding: 0;">
+                          macworld.com by Jason Snell
+                        </a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

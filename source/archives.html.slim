@@ -1,0 +1,10 @@
+---
+title: Apple Focus - Newsletter Archives
+page_class: 'archives'
+---
+
+h1 Newsletter Archives
+
+ul#archives
+  - issues.reverse.each do |issue|
+    li = link_to issue.title, issue.path

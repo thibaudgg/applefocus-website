@@ -1,0 +1,13 @@
+h1.main
+  = 'The most popular '
+  span.nobreak = 'Apple-related'
+  = ' tweets picked live by fine algorithms.'
+
+h1
+  = 'Just follow'
+  = link_to ' @_applefocus', 'https://twitter.com/_applefocus', title: '@_applefocus'
+  = '.'
+
+#twitter
+  = link_to 'https://twitter.com/_applefocus', title: '@_applefocus' do
+    == inline_svg 'images/twitter.svg'

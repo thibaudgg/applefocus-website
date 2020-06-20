@@ -1,0 +1,18 @@
+---
+page_class: 'issue'
+---
+
+h1
+  span.prev
+    - if pre_issue
+      = link_to '<', pre_issue.path, title: pre_issue.title
+    - else
+      span.disabled = '<'
+  = "#{current_issue.year} ∕ #{current_issue.cweek}"
+  span.next
+    - if next_issue
+      = link_to '>', next_issue.path, title: next_issue.title
+    - else
+      span.disabled = '>'
+
+#issue = partial "/issues#{current_issue.path}"

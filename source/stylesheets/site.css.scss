@@ -1,0 +1,164 @@
+@charset 'utf-8';
+@import 'normalize';
+@import 'variables';
+@import 'animations';
+@import 'issue';
+@import 'archives';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.content {
+  min-height: 800px;
+  max-width: 900px;
+  margin: 0 15px;
+}
+
+.archive {
+  margin: -2em 5px 2em;
+
+  p {
+    max-width: none;
+    font-size: 1em;
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin: 4em 6em;
+  max-width: 160px;
+  @media screen and (min-width: $medium-screen) {
+    margin: 6em;
+    max-width: 170px;
+  }
+  animation: rotating 50s linear infinite;
+}
+
+h1,
+h3 {
+  color: $dark-gray;
+  margin: 0 0 2em;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  font-size: 27px;
+  line-height: 1.25em;
+  font-weight: 300;
+  letter-spacing: -0.015em;
+
+  &.main {
+    margin: 0 0 0.5em;
+  }
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+p {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: 300;
+  color: $medium-gray;
+  max-width: 500px;
+  margin: 0;
+
+  &.huge {
+    font-size: 3em;
+  }
+}
+
+a {
+  transition: all 0.24 5s ease-in-out;
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    color: $violet;
+  }
+}
+
+#twitter {
+  margin: 3em 0;
+
+  svg {
+    transition: all 0.3s ease-in-out;
+    width: 80px;
+    fill: $light-gray;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    &:hover {
+      fill: $medium-gray;
+    }
+  }
+}
+
+footer {
+  padding-top: 2em;
+
+  ul {
+    line-height: 17px;
+    text-align: center;
+    margin: 0 0 0.5em;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  a,
+  li {
+    font-size: 12px;
+    font-weight: 300;
+    color: lighten($medium-gray, 10%);
+  }
+
+  li {
+    white-space: nowrap;
+    width: 100%;
+    @media screen and (min-width: $medium-screen) {
+      display: inline;
+
+      &:not(:last-child)::after {
+        content: ' | ';
+        color: $light-gray;
+      }
+    }
+  }
+
+  a:hover {
+    color: $dark-gray;
+  }
+}
+
+ul#archives {
+  margin: -1em 0 10em;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  line-height: 2.2em;
+
+  a {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+}
